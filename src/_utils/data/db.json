@@ -1,0 +1,52 @@
+{
+  "phones": [
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "os_version": "Android 14",
+      "screen_size": "6.5 inches",
+      "available": false,
+      "booking_info": null,
+      "id": 2
+    },
+    {
+      "brand": "Samsung",
+      "model": "Galaxy S22",
+      "os_version": "Android 13.2",
+      "screen_size": "6.1 inches",
+      "available": false,
+      "booking_info": null,
+      "id": 1
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "os_version": "iOS 17",
+      "screen_size": "6.1 inches",
+      "available": false,
+      "booking_info": null,
+      "id": 3
+    },
+    {
+      "brand": "Google",
+      "model": "Pixel 7",
+      "os_version": "Android 14",
+      "screen_size": "6 inches",
+      "available": true,
+      "booking_info": {
+        "user": "Andrew",
+        "date": "2024-04-17T18:31:33.500Z"
+      },
+      "id": 4
+    },
+    {
+      "brand": "OnePlus",
+      "model": "OnePlus 8T",
+      "os_version": "Android 11",
+      "screen_size": "6.55 inches",
+      "available": false,
+      "booking_info": null,
+      "id": 5
+    }
+  ]
+}

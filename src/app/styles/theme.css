@@ -1,0 +1,27 @@
+html:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -5;
+  background-image: linear-gradient(180deg, rgba(50, 70, 80, 0.9) 0%, rgb(13, 16, 27) 100%);
+  @apply text-gray-100;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-attachment: initial;
+  background-color: transparent;
+  background: url('/img/pattern-dark.png') repeat top left;
+  background-size: 4.6875rem;
+  background-repeat: repeat;
+  background-attachment: initial;
+  z-index: -5;
+}

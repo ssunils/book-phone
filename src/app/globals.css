@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(./styles/variables.css);
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+@import url(./styles/theme.css);
+body {
+  @apply bg-gray-900;
+
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-attachment: initial;
+  background-color: transparent;
+  background: url('/img/pattern-dark.png') repeat top left;
+  background-size: 4.6875rem;
+  background-repeat: repeat;
+  background-attachment: initial;
+  z-index: -5;
+}
