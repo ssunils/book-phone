@@ -14,8 +14,11 @@
       "model": "Galaxy S22",
       "os_version": "Android 13.2",
       "screen_size": "6.1 inches",
-      "available": false,
-      "booking_info": null,
+      "available": true,
+      "booking_info": {
+        "user": "Andrew",
+        "date": "2024-04-25T03:37:23.925Z"
+      },
       "id": 1
     },
     {
