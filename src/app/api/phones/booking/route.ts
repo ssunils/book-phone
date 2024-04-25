@@ -6,7 +6,6 @@ export async function POST(req: NextRequest, res: NextResponse) {
     if(req.method === 'POST') {
         const body = await req.json();
         const phoneId = body.id;
-        const available = body.available;
         await db.read();
         const phones = db.data.phones;
         const phone = phones.find(phone => phone.id === phoneId);
